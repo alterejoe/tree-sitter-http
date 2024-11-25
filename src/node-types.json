@@ -1,0 +1,287 @@
+[
+  {
+    "type": "body",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "content",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "header",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "header_name",
+          "named": true
+        },
+        {
+          "type": "header_value",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "method",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "request",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "body",
+          "named": true
+        },
+        {
+          "type": "header",
+          "named": true
+        },
+        {
+          "type": "method",
+          "named": true
+        },
+        {
+          "type": "url",
+          "named": true
+        },
+        {
+          "type": "whitespace",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "requests",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "delimiter",
+          "named": true
+        },
+        {
+          "type": "exiteddelimeter",
+          "named": true
+        },
+        {
+          "type": "request",
+          "named": true
+        },
+        {
+          "type": "response",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "header",
+          "named": true
+        },
+        {
+          "type": "response_body",
+          "named": true
+        },
+        {
+          "type": "separator",
+          "named": true
+        },
+        {
+          "type": "status_line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "status_line",
+    "named": true,
+    "fields": {
+      "http_version": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "http_version",
+            "named": true
+          }
+        ]
+      },
+      "status_code": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "status_code",
+            "named": true
+          }
+        ]
+      },
+      "status_message": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "status_message",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": ": ",
+    "named": false
+  },
+  {
+    "type": "DELETE",
+    "named": false
+  },
+  {
+    "type": "GET",
+    "named": false
+  },
+  {
+    "type": "HEAD",
+    "named": false
+  },
+  {
+    "type": "OPTIONS",
+    "named": false
+  },
+  {
+    "type": "PATCH",
+    "named": false
+  },
+  {
+    "type": "POST",
+    "named": false
+  },
+  {
+    "type": "PUT",
+    "named": false
+  },
+  {
+    "type": "TRACE",
+    "named": false
+  },
+  {
+    "type": "content",
+    "named": true
+  },
+  {
+    "type": "delete",
+    "named": false
+  },
+  {
+    "type": "delimiter",
+    "named": true
+  },
+  {
+    "type": "exiteddelimeter",
+    "named": true
+  },
+  {
+    "type": "get",
+    "named": false
+  },
+  {
+    "type": "head",
+    "named": false
+  },
+  {
+    "type": "header_name",
+    "named": true
+  },
+  {
+    "type": "header_value",
+    "named": true
+  },
+  {
+    "type": "http_version",
+    "named": true
+  },
+  {
+    "type": "options",
+    "named": false
+  },
+  {
+    "type": "patch",
+    "named": false
+  },
+  {
+    "type": "post",
+    "named": false
+  },
+  {
+    "type": "put",
+    "named": false
+  },
+  {
+    "type": "response_body",
+    "named": true
+  },
+  {
+    "type": "separator",
+    "named": true
+  },
+  {
+    "type": "status_code",
+    "named": true
+  },
+  {
+    "type": "status_message",
+    "named": true
+  },
+  {
+    "type": "trace",
+    "named": false
+  },
+  {
+    "type": "url",
+    "named": true
+  },
+  {
+    "type": "whitespace",
+    "named": true
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]
